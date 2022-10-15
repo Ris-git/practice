@@ -1,7 +1,6 @@
-x = int(input("Enter Length: "))
-y = int(input("Enter Breadth: "))
-if x == y:
-    print("It is a square")
+salary = int(input("Enter your current salary: "))
+service = int(input("Enter your year of service: "))
+if service > 5:
+    print("The net bonus amount is Rs :", salary + 1000)
 else:
-    print("It is not a square")    
-    
+    print("The bonus is not applicable to you.")    
