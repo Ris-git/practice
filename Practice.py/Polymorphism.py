@@ -32,3 +32,16 @@ ostrich.fly()
 class car:
     pass
 
+class vehicle:
+    def __init__(self, name, mileage):
+        self.name = name
+        self.milegae = mileage
+
+class child(vehicle):
+    pass
+    
+
+obj = child("ABC" , 19)
+print(obj.name)
+
+
